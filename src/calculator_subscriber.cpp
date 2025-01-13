@@ -11,29 +11,24 @@ CalculatorSubscriber::CalculatorSubscriber() : Node("calculator_subscriber")
   subscription_command_ = this->create_subscription<std_msgs::msg::Int32>(
       "command", 10, std::bind(&CalculatorSubscriber::command_callback, this, std::placeholders::_1));
 
-  history_.reserve(5); // 保留前五次计算结果
+  history_.reserve(5); 
 }
 
 void CalculatorSubscriber::num1_callback(const std_msgs::msg::Float64::SharedPtr msg)
 {
   num1_ = msg->data;
 }
-
 void CalculatorSubscriber::num2_callback(const std_msgs::msg::Float64::SharedPtr msg)
 {
   num2_ = msg->data;
 }
-
 void CalculatorSubscriber::operation_callback(const std_msgs::msg::String::SharedPtr msg)
 {
   operation_ = msg->data;
 }
-
 void CalculatorSubscriber::command_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
   int command = msg->data;
-  RCLCPP_INFO(this->get_logger(), "收到命令: %d", command); // 添加日志
-  
   if (command == 1 && num1_ && num2_ && !operation_.empty())
   {
     double result = perform_calculation(*num1_, *num2_, operation_);
