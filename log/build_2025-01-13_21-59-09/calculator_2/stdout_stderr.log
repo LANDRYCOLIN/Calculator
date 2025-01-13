@@ -1,0 +1,30 @@
+[ 50%] Built target calculator_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o[0m
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:[m[K In member function ‘[01m[Kvoid CalculatorPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   27 |     std::cin>> msg_n[01;31m[Ku[m[Km1.data;
+      |                     [01;31m[K^[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   28 |     std::cin>> msg_n[01;31m[Ku[m[Km2.data;
+      |                     [01;31m[K^[m[K
+      |                     [32m[Kyn[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:29:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+   29 |     std::cin>> msg[01;31m[K_[m[Kop.data;
+      |                   [01;31m[K^[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:47:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_istream<char>::__istream_type[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} to ‘[01m[Kint[m[K’ in initialization
+   47 |   rclcpp::in[01;31m[Kit(argc, argv[m[K);
+      |             [01;31m[K~~~~~~~~~^~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kstd::basic_istream<char>::__istream_type {aka std::basic_istream<char>}[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:48:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_istream<char>::__istream_type[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} to ‘[01m[Kint[m[K’ in initialization
+   48 |   rclcpp::sp[01;31m[Kin(std::make_[m[Kshared<CalculatorPublisher>());
+      |             [01;31m[K~~~~~~~~~^~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kstd::basic_istream<char>::__istream_type {aka std::basic_istream<char>}[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:49:30:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::basic_istream<char>[m[K’ to non-scalar type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} requested
+   49 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K~[m[K        [01;31m[K^[m[K   
+gmake[2]: *** [CMakeFiles/calculator_publisher.dir/build.make:76: CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/calculator_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

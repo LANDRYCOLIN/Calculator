@@ -1,0 +1,17 @@
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/package_run_dependencies/calculator_2
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/parent_prefix_path/calculator_2
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.sh
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.dsv
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.sh
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.dsv
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.bash
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.sh
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.zsh
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.dsv
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.dsv
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/packages/calculator_2
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config.cmake
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config-version.cmake
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.xml

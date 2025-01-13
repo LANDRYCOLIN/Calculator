@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[0.030s] [ 25%] [32mBuilding CXX object CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o[0m
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o[0m
+[2.815s] [ 75%] [32m[1mLinking CXX executable calculator_publisher[0m
+[3.007s] [ 75%] Built target calculator_publisher
+[5.075s] [100%] [32m[1mLinking CXX executable calculator_subscriber[0m
+[5.441s] [100%] Built target calculator_subscriber
+[5.447s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[5.452s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2
+[5.456s] -- Install configuration: ""
+[5.457s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher
+[5.458s] -- Set non-toolchain portion of runtime path of "/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher" to ""
+[5.459s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber
+[5.462s] -- Set non-toolchain portion of runtime path of "/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber" to ""
+[5.462s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/package_run_dependencies/calculator_2
+[5.462s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/parent_prefix_path/calculator_2
+[5.462s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.sh
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.dsv
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.sh
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.dsv
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.bash
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.sh
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.zsh
+[5.463s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.dsv
+[5.463s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.dsv
+[5.464s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/packages/calculator_2
+[5.464s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config.cmake
+[5.465s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config-version.cmake
+[5.465s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.xml
+[5.465s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2

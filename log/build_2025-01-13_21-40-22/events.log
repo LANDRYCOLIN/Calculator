@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (calculator_2) JobQueued: {'identifier': 'calculator_2', 'dependencies': OrderedDict()}
+[0.000335] (calculator_2) JobStarted: {'identifier': 'calculator_2'}
+[0.004077] (calculator_2) JobProgress: {'identifier': 'calculator_2', 'progress': 'cmake'}
+[0.004518] (calculator_2) Command: {'cmd': ['/usr/bin/cmake', '/home/rmcolin/ros2_ws/src/calculator_2', '-DCMAKE_INSTALL_PREFIX=/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2'], 'cwd': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rmcolin', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/rmcolin', 'OLDPWD': '/home/rmcolin/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rmcolin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rmcolin', 'NAME': 'LAPTOP-2DJAH6SC', 'WSL_INTEROP': '/run/WSL/17432_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/ProgramFiles/MWORKS/Sysplorer 2024b/bin64:/mnt/d/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/LLVM/bin:/mnt/c/Program Files (x86)/LLVM/bin:/mnt/e/ProgramFiles/MWORKS/Syslab 2024b/Bin/bin:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/杨迪睿/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/d/LaTeX/MiKTeX/miktex/bin/x64/:/mnt/e/ProgramFiles/intelFPGA/Modelsim/modelsim_ase/win32aloem:/mnt/e/ProgramFiles/opencv/build/x64/vc16/bin:/snap/bin', 'WT_SESSION': '046f7c2e-5ef9-467a-ae39-8bfab6b86d39', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099735] (-) TimerEvent: {}
+[0.199960] (-) TimerEvent: {}
+[0.233180] (calculator_2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300071] (-) TimerEvent: {}
+[0.400266] (-) TimerEvent: {}
+[0.500526] (-) TimerEvent: {}
+[0.600764] (-) TimerEvent: {}
+[0.700944] (-) TimerEvent: {}
+[0.801131] (-) TimerEvent: {}
+[0.901324] (-) TimerEvent: {}
+[1.001498] (-) TimerEvent: {}
+[1.101728] (-) TimerEvent: {}
+[1.201980] (-) TimerEvent: {}
+[1.302295] (-) TimerEvent: {}
+[1.402476] (-) TimerEvent: {}
+[1.502680] (-) TimerEvent: {}
+[1.602920] (-) TimerEvent: {}
+[1.665514] (calculator_2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.703002] (-) TimerEvent: {}
+[1.803180] (-) TimerEvent: {}
+[1.903388] (-) TimerEvent: {}
+[2.003575] (-) TimerEvent: {}
+[2.103780] (-) TimerEvent: {}
+[2.204013] (-) TimerEvent: {}
+[2.304206] (-) TimerEvent: {}
+[2.404575] (-) TimerEvent: {}
+[2.504756] (-) TimerEvent: {}
+[2.605081] (-) TimerEvent: {}
+[2.705273] (-) TimerEvent: {}
+[2.805495] (-) TimerEvent: {}
+[2.905703] (-) TimerEvent: {}
+[3.005932] (-) TimerEvent: {}
+[3.106138] (-) TimerEvent: {}
+[3.206336] (-) TimerEvent: {}
+[3.306543] (-) TimerEvent: {}
+[3.406800] (-) TimerEvent: {}
+[3.506980] (-) TimerEvent: {}
+[3.607155] (-) TimerEvent: {}
+[3.661319] (calculator_2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.707236] (-) TimerEvent: {}
+[3.807438] (-) TimerEvent: {}
+[3.907650] (-) TimerEvent: {}
+[3.941628] (calculator_2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.946173] (calculator_2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.946321] (calculator_2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.946535] (calculator_2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.007724] (-) TimerEvent: {}
+[4.107983] (-) TimerEvent: {}
+[4.181807] (calculator_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.208062] (-) TimerEvent: {}
+[4.308307] (-) TimerEvent: {}
+[4.408491] (-) TimerEvent: {}
+[4.508664] (-) TimerEvent: {}
+[4.551566] (calculator_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.556400] (calculator_2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.556575] (calculator_2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.556830] (calculator_2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.558040] (calculator_2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.608766] (-) TimerEvent: {}
+[4.633325] (calculator_2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.685650] (calculator_2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.708867] (-) TimerEvent: {}
+[4.809037] (-) TimerEvent: {}
+[4.835012] (calculator_2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.842474] (calculator_2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.850934] (calculator_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.859766] (calculator_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.898763] (calculator_2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.900144] (calculator_2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.909109] (-) TimerEvent: {}
+[4.934335] (calculator_2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.009176] (-) TimerEvent: {}
+[5.109361] (-) TimerEvent: {}
+[5.209532] (-) TimerEvent: {}
+[5.285146] (calculator_2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.309618] (-) TimerEvent: {}
+[5.394415] (calculator_2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.409713] (-) TimerEvent: {}
+[5.509922] (-) TimerEvent: {}
+[5.595771] (calculator_2) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.604343] (calculator_2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.609979] (-) TimerEvent: {}
+[5.659941] (calculator_2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.660066] (calculator_2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.660101] (calculator_2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.660724] (calculator_2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.662895] (calculator_2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.662988] (calculator_2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.663367] (calculator_2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.664229] (calculator_2) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[5.671316] (calculator_2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.673709] (calculator_2) StdoutLine: {'line': b'-- Build files have been written to: /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2\n'}
+[5.678534] (calculator_2) CommandEnded: {'returncode': 0}
+[5.679386] (calculator_2) JobProgress: {'identifier': 'calculator_2', 'progress': 'build'}
+[5.679411] (calculator_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', '--', '-j24', '-l24'], 'cwd': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rmcolin', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/rmcolin', 'OLDPWD': '/home/rmcolin/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rmcolin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rmcolin', 'NAME': 'LAPTOP-2DJAH6SC', 'WSL_INTEROP': '/run/WSL/17432_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/ProgramFiles/MWORKS/Sysplorer 2024b/bin64:/mnt/d/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/LLVM/bin:/mnt/c/Program Files (x86)/LLVM/bin:/mnt/e/ProgramFiles/MWORKS/Syslab 2024b/Bin/bin:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/杨迪睿/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/d/LaTeX/MiKTeX/miktex/bin/x64/:/mnt/e/ProgramFiles/intelFPGA/Modelsim/modelsim_ase/win32aloem:/mnt/e/ProgramFiles/opencv/build/x64/vc16/bin:/snap/bin', 'WT_SESSION': '046f7c2e-5ef9-467a-ae39-8bfab6b86d39', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[5.701839] (calculator_2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o\x1b[0m\n'}
+[5.702387] (calculator_2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o\x1b[0m\n'}
+[5.710042] (-) TimerEvent: {}
+[5.810239] (-) TimerEvent: {}
+[5.910470] (-) TimerEvent: {}
+[6.010655] (-) TimerEvent: {}
+[6.110849] (-) TimerEvent: {}
+[6.211052] (-) TimerEvent: {}
+[6.311263] (-) TimerEvent: {}
+[6.411462] (-) TimerEvent: {}
+[6.511653] (-) TimerEvent: {}
+[6.611910] (-) TimerEvent: {}
+[6.712124] (-) TimerEvent: {}
+[6.812330] (-) TimerEvent: {}
+[6.912551] (-) TimerEvent: {}
+[7.012813] (-) TimerEvent: {}
+[7.113046] (-) TimerEvent: {}
+[7.213276] (-) TimerEvent: {}
+[7.313584] (-) TimerEvent: {}
+[7.413800] (-) TimerEvent: {}
+[7.514030] (-) TimerEvent: {}
+[7.614306] (-) TimerEvent: {}
+[7.714585] (-) TimerEvent: {}
+[7.793889] (calculator_2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable calculator_publisher\x1b[0m\n'}
+[7.814661] (-) TimerEvent: {}
+[7.914866] (-) TimerEvent: {}
+[8.003091] (calculator_2) StdoutLine: {'line': b'[ 75%] Built target calculator_publisher\n'}
+[8.014958] (-) TimerEvent: {}
+[8.115194] (-) TimerEvent: {}
+[8.215426] (-) TimerEvent: {}
+[8.315735] (-) TimerEvent: {}
+[8.415957] (-) TimerEvent: {}
+[8.516151] (-) TimerEvent: {}
+[8.616348] (-) TimerEvent: {}
+[8.716543] (-) TimerEvent: {}
+[8.816741] (-) TimerEvent: {}
+[8.916924] (-) TimerEvent: {}
+[9.017114] (-) TimerEvent: {}
+[9.117375] (-) TimerEvent: {}
+[9.217645] (-) TimerEvent: {}
+[9.317855] (-) TimerEvent: {}
+[9.418044] (-) TimerEvent: {}
+[9.518244] (-) TimerEvent: {}
+[9.618426] (-) TimerEvent: {}
+[9.635303] (calculator_2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable calculator_subscriber\x1b[0m\n'}
+[9.718525] (-) TimerEvent: {}
+[9.818703] (-) TimerEvent: {}
+[9.852233] (calculator_2) StdoutLine: {'line': b'[100%] Built target calculator_subscriber\n'}
+[9.857137] (calculator_2) CommandEnded: {'returncode': 0}
+[9.857604] (calculator_2) JobProgress: {'identifier': 'calculator_2', 'progress': 'install'}
+[9.861500] (calculator_2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2'], 'cwd': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rmcolin', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/rmcolin', 'OLDPWD': '/home/rmcolin/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rmcolin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rmcolin', 'NAME': 'LAPTOP-2DJAH6SC', 'WSL_INTEROP': '/run/WSL/17432_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/ProgramFiles/MWORKS/Sysplorer 2024b/bin64:/mnt/d/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/LLVM/bin:/mnt/c/Program Files (x86)/LLVM/bin:/mnt/e/ProgramFiles/MWORKS/Syslab 2024b/Bin/bin:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/杨迪睿/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/d/LaTeX/MiKTeX/miktex/bin/x64/:/mnt/e/ProgramFiles/intelFPGA/Modelsim/modelsim_ase/win32aloem:/mnt/e/ProgramFiles/opencv/build/x64/vc16/bin:/snap/bin', 'WT_SESSION': '046f7c2e-5ef9-467a-ae39-8bfab6b86d39', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rmcolin/ros2_ws/install/calculator_2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.864894] (calculator_2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.865090] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher\n'}
+[9.865616] (calculator_2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher" to ""\n'}
+[9.865744] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber\n'}
+[9.867845] (calculator_2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber" to ""\n'}
+[9.868033] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/package_run_dependencies/calculator_2\n'}
+[9.868079] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/parent_prefix_path/calculator_2\n'}
+[9.868182] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.sh\n'}
+[9.868357] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.dsv\n'}
+[9.868400] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.sh\n'}
+[9.868444] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.dsv\n'}
+[9.868697] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.bash\n'}
+[9.868780] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.sh\n'}
+[9.868819] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.zsh\n'}
+[9.868908] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.dsv\n'}
+[9.868939] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.dsv\n'}
+[9.868969] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/packages/calculator_2\n'}
+[9.869000] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config.cmake\n'}
+[9.869030] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config-version.cmake\n'}
+[9.869060] (calculator_2) StdoutLine: {'line': b'-- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.xml\n'}
+[9.869992] (calculator_2) CommandEnded: {'returncode': 0}
+[9.878752] (calculator_2) JobEnded: {'identifier': 'calculator_2', 'rc': 0}
+[9.879514] (-) EventReactorShutdown: {}

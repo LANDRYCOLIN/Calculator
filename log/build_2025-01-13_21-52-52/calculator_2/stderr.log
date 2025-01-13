@@ -1,0 +1,17 @@
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<CalculatorSubscriber, __gnu_cxx::_S_atomic, false, false>::element_type = class CalculatorSubscriber[m[K’ {aka ‘[01m[Kclass CalculatorSubscriber[m[K’} has no member named ‘[01m[Kpublish_data[m[K’
+  110 |       node->[01;31m[Kpublish_data[m[K(num1, num2, operation);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<CalculatorSubscriber, __gnu_cxx::_S_atomic, false, false>::element_type = class CalculatorSubscriber[m[K’ {aka ‘[01m[Kclass CalculatorSubscriber[m[K’} has no member named ‘[01m[Kshow_history[m[K’; did you mean ‘[01m[Ksave_history[m[K’?
+  114 |       node->[01;31m[Kshow_history[m[K();
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[Ksave_history[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:118:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid CalculatorSubscriber::[01;32m[Kclear_history[m[K()[m[K’ is private within this context
+  118 |       [01;31m[Knode->clear_history()[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:72:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   72 |   void [01;36m[Kclear_history[m[K()
+      |        [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/calculator_subscriber.dir/build.make:76: CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
