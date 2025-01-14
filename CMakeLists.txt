@@ -27,7 +27,6 @@ install(TARGETS
 install(DIRECTORY launch
     DESTINATION share/${PROJECT_NAME})
 
-# 如果需要测试
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
