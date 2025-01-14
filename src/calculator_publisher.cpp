@@ -44,9 +44,10 @@ void CalculatorPublisher::run()
       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // 忽略输入
     }
 
-    rclcpp::spin_once(shared_from_this(), std::chrono::milliseconds(100));  // 继续处理ROS的消息
+    rclcpp::spin_some(shared_from_this());  // 继续处理ROS的消息
   }
 }
+
 
 
 int main(int argc, char *argv[])
