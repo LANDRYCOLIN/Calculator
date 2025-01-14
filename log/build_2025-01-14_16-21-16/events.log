@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (calculator_2) JobQueued: {'identifier': 'calculator_2', 'dependencies': OrderedDict()}
+[0.000310] (calculator_2) JobStarted: {'identifier': 'calculator_2'}
+[0.006493] (calculator_2) JobProgress: {'identifier': 'calculator_2', 'progress': 'cmake'}
+[0.007233] (calculator_2) JobProgress: {'identifier': 'calculator_2', 'progress': 'build'}
+[0.007705] (calculator_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', '--', '-j24', '-l24'], 'cwd': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rmcolin', 'GIT_ASKPASS': '/home/rmcolin/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rmcolin', 'TERM_PROGRAM_VERSION': '1.96.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f49ec6f3-e28e-4307-820b-4c214b8d2add.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rmcolin/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rmcolin/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rmcolin', 'NAME': 'LAPTOP-2DJAH6SC', 'WSL_INTEROP': '/run/WSL/30047_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/rmcolin/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/ProgramFiles/MWORKS/Sysplorer 2024b/bin64:/mnt/d/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/LLVM/bin:/mnt/c/Program Files (x86)/LLVM/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/e/ProgramFiles/MWORKS/Syslab 2024b/Bin/bin:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/杨迪睿/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/杨迪睿/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/d/LaTeX/MiKTeX/miktex/bin/x64/:/mnt/e/ProgramFiles/intelFPGA/Modelsim/modelsim_ase/win32aloem:/mnt/e/ProgramFiles/opencv/build/x64/vc16/bin:/snap/bin:/home/rmcolin/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e791302ec5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.074131] (calculator_2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o\x1b[0m\n'}
+[0.077385] (calculator_2) StdoutLine: {'line': b'[ 75%] Built target calculator_publisher\n'}
+[0.099851] (-) TimerEvent: {}
+[0.200051] (-) TimerEvent: {}
+[0.300245] (-) TimerEvent: {}
+[0.400485] (-) TimerEvent: {}
+[0.500746] (-) TimerEvent: {}
+[0.600969] (-) TimerEvent: {}
+[0.701175] (-) TimerEvent: {}
+[0.801394] (-) TimerEvent: {}
+[0.901622] (-) TimerEvent: {}
+[1.001840] (-) TimerEvent: {}
+[1.102178] (-) TimerEvent: {}
+[1.202403] (-) TimerEvent: {}
+[1.281639] (calculator_2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.281802] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.hpp:11:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kco\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.281844] (calculator_2) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[Kco\x1b[m\x1b[K\n'}
+[1.281876] (calculator_2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.283431] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.283555] (calculator_2) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::CalculatorSubscriber() : Node("calculator_subscriber")\n'}
+[1.283593] (calculator_2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.283626] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:17:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283660] (calculator_2) StderrLine: {'line': b'   17 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::num1_callback(const std_msgs::msg::Float64::SharedPtr msg)\n'}
+[1.283693] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.289514] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K num1_callback\x1b[m\x1b[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.289673] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:19:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum1_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.289711] (calculator_2) StderrLine: {'line': b'   19 |   \x1b[01;31m\x1b[Knum1_\x1b[m\x1b[K = msg->data;\n'}
+[1.289742] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.289773] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.289805] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:22:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.289834] (calculator_2) StderrLine: {'line': b'   22 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::num2_callback(const std_msgs::msg::Float64::SharedPtr msg)\n'}
+[1.289863] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.291552] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K num2_callback\x1b[m\x1b[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.291605] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum2_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.291637] (calculator_2) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[Knum2_\x1b[m\x1b[K = msg->data;\n'}
+[1.291667] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.291697] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.291726] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:27:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.291756] (calculator_2) StderrLine: {'line': b'   27 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::operation_callback(const std_msgs::msg::String::SharedPtr msg)\n'}
+[1.291783] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.294332] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K operation_callback\x1b[m\x1b[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.294425] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperation_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koperator!\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.294460] (calculator_2) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[Koperation_\x1b[m\x1b[K = msg->data;\n'}
+[1.294491] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.294521] (calculator_2) StderrLine: {'line': b'      |   \x1b[32m\x1b[Koperator!\x1b[m\x1b[K\n'}
+[1.294551] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.294582] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:32:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.294610] (calculator_2) StderrLine: {'line': b'   32 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::command_callback(const std_msgs::msg::Int32::SharedPtr msg)\n'}
+[1.294638] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.295153] (calculator_2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.295238] (calculator_2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.295304] (calculator_2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.hpp:4\x1b[m\x1b[K:\n'}
+[1.295336] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K command_callback\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.295369] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.295400] (calculator_2) StderrLine: {'line': b'   35 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295430] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.295459] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.295509] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.295543] (calculator_2) StderrLine: {'line': b'   35 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295572] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.295601] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.295633] (calculator_2) StderrLine: {'line': b'   35 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295663] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.295690] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.295718] (calculator_2) StderrLine: {'line': b'   35 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295745] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.295773] (calculator_2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K:\n'}
+[1.295801] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.295829] (calculator_2) StderrLine: {'line': b'   35 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295856] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.295882] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.295910] (calculator_2) StderrLine: {'line': b'   35 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe5\x91\xbd\xe4\xbb\xa4: %d", command); // \xe6\xb7\xbb\xe5\x8a\xa0\xe6\x97\xa5\xe5\xbf\x97\n'}
+[1.295937] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.297339] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum1_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.297443] (calculator_2) StderrLine: {'line': b'   37 |   if (command == 1 && \x1b[01;31m\x1b[Knum1_\x1b[m\x1b[K && num2_ && !operation_.empty())\n'}
+[1.297479] (calculator_2) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.299112] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum2_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.299190] (calculator_2) StderrLine: {'line': b'   37 |   if (command == 1 && num1_ && \x1b[01;31m\x1b[Knum2_\x1b[m\x1b[K && !operation_.empty())\n'}
+[1.299226] (calculator_2) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.301143] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koperation_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koperator!\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.301217] (calculator_2) StderrLine: {'line': b'   37 |   if (command == 1 && num1_ && num2_ && !\x1b[01;31m\x1b[Koperation_\x1b[m\x1b[K.empty())\n'}
+[1.301249] (calculator_2) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.301280] (calculator_2) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Koperator!\x1b[m\x1b[K\n'}
+[1.302478] (-) TimerEvent: {}
+[1.304664] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:39:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kperform_calculation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.304777] (calculator_2) StderrLine: {'line': b'   39 |     double result = \x1b[01;31m\x1b[Kperform_calculation\x1b[m\x1b[K(*num1_, *num2_, operation_);\n'}
+[1.304830] (calculator_2) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307118] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksave_history\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.307227] (calculator_2) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Ksave_history\x1b[m\x1b[K(result);\n'}
+[1.307358] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307397] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.307432] (calculator_2) StderrLine: {'line': b'   41 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307497] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.307537] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.307568] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.307598] (calculator_2) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307627] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307654] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.307682] (calculator_2) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307709] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307738] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.307766] (calculator_2) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307810] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307847] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.307878] (calculator_2) StderrLine: {'line': b'   41 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307911] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.307939] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.307968] (calculator_2) StderrLine: {'line': b'   41 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe8\xbf\x90\xe7\xae\x97\xe7\xbb\x93\xe6\x9e\x9c: %.2f", result);\n'}
+[1.307996] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.310646] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisplay_history\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.310746] (calculator_2) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kdisplay_history\x1b[m\x1b[K();\n'}
+[1.310780] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.313606] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclear_history\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.313737] (calculator_2) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Kclear_history\x1b[m\x1b[K();\n'}
+[1.313821] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.313904] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.313986] (calculator_2) StderrLine: {'line': b'   53 |     RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.314069] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.314150] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.314254] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.314358] (calculator_2) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.314513] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.314602] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.314686] (calculator_2) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.314769] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.314850] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.314932] (calculator_2) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.315049] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.315084] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.315116] (calculator_2) StderrLine: {'line': b'   53 |     RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.315145] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.315176] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.315207] (calculator_2) StderrLine: {'line': b'   53 |     RCLCPP_WARN(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe6\x95\x88\xe6\x8c\x87\xe4\xbb\xa4");\n'}
+[1.315234] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.315262] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.315290] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:57:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.315318] (calculator_2) StderrLine: {'line': b'   57 | double \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::perform_calculation(double num1, double num2, const std::string &operation)\n'}
+[1.315360] (calculator_2) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.315390] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:71:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.315419] (calculator_2) StderrLine: {'line': b'   71 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::save_history(double result)\n'}
+[1.315449] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.316775] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K save_history\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.316874] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:73:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khistory_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.316919] (calculator_2) StderrLine: {'line': b'   73 |   if (\x1b[01;31m\x1b[Khistory_\x1b[m\x1b[K.size() >= 5)\n'}
+[1.316953] (calculator_2) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.318914] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:77:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khistory_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.319029] (calculator_2) StderrLine: {'line': b'   77 |   \x1b[01;31m\x1b[Khistory_\x1b[m\x1b[K.push_back(result);\n'}
+[1.319111] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.319193] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.319276] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:80:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.319426] (calculator_2) StderrLine: {'line': b'   80 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::display_history()\n'}
+[1.319460] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.319490] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K display_history\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.319520] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.319550] (calculator_2) StderrLine: {'line': b'   82 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.319586] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.319626] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.319656] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.319684] (calculator_2) StderrLine: {'line': b'   82 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.319711] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.319739] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.319767] (calculator_2) StderrLine: {'line': b'   82 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.319793] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.319820] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.319849] (calculator_2) StderrLine: {'line': b'   82 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.319877] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.319905] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.319934] (calculator_2) StderrLine: {'line': b'   82 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.319962] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.319990] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.320018] (calculator_2) StderrLine: {'line': b'   82 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95:");\n'}
+[1.320047] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.321279] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:83:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khistory_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.321394] (calculator_2) StderrLine: {'line': b'   83 |   if (\x1b[01;31m\x1b[Khistory_\x1b[m\x1b[K.empty())\n'}
+[1.321482] (calculator_2) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.321566] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.321650] (calculator_2) StderrLine: {'line': b'   85 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.321733] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.321884] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.321959] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.321991] (calculator_2) StderrLine: {'line': b'   85 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.322020] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.322050] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.322079] (calculator_2) StderrLine: {'line': b'   85 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.322121] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.322160] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.322190] (calculator_2) StderrLine: {'line': b'   85 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.322262] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.322309] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.322342] (calculator_2) StderrLine: {'line': b'   85 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.322372] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.322400] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.322429] (calculator_2) StderrLine: {'line': b'   85 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe6\x97\xa0\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95");\n'}
+[1.322463] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.324320] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:87:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khistory_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.324383] (calculator_2) StderrLine: {'line': b'   87 |   for (const auto &res : \x1b[01;31m\x1b[Khistory_\x1b[m\x1b[K)\n'}
+[1.324487] (calculator_2) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.324546] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.324630] (calculator_2) StderrLine: {'line': b'   89 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "%.2f", res);\n'}
+[1.324712] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.324794] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.324915] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.324953] (calculator_2) StderrLine: {'line': b'   89 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "%.2f", res);\n'}
+[1.324984] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.325014] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.325043] (calculator_2) StderrLine: {'line': b'   89 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "%.2f", res);\n'}
+[1.325072] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.325100] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.325128] (calculator_2) StderrLine: {'line': b'   89 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "%.2f", res);\n'}
+[1.325156] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.325183] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.325212] (calculator_2) StderrLine: {'line': b'   89 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "%.2f", res);\n'}
+[1.325241] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.325268] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.325301] (calculator_2) StderrLine: {'line': b'   89 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "%.2f", res);\n'}
+[1.325343] (calculator_2) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.325379] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.325411] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:93:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.325439] (calculator_2) StderrLine: {'line': b'   93 | void \x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K::clear_history()\n'}
+[1.325467] (calculator_2) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.326728] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K clear_history\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.326808] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:95:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khistory_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.326929] (calculator_2) StderrLine: {'line': b'   95 |   \x1b[01;31m\x1b[Khistory_\x1b[m\x1b[K.clear();\n'}
+[1.326968] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.327000] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.327033] (calculator_2) StderrLine: {'line': b'   96 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327062] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.327092] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.327121] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.327148] (calculator_2) StderrLine: {'line': b'   96 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327177] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.327205] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.327236] (calculator_2) StderrLine: {'line': b'   96 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327264] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.327292] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.327319] (calculator_2) StderrLine: {'line': b'   96 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327345] (calculator_2) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.327373] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.327401] (calculator_2) StderrLine: {'line': b'   96 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327428] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.327455] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.327483] (calculator_2) StderrLine: {'line': b'   96 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "\xe5\x8e\x86\xe5\x8f\xb2\xe8\xae\xb0\xe5\xbd\x95\xe5\xb7\xb2\xe6\xb8\x85\xe9\x99\xa4");\n'}
+[1.327511] (calculator_2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.330588] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.330730] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCalculatorSubscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.330769] (calculator_2) StderrLine: {'line': b'  102 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KCalculatorSubscriber\x1b[m\x1b[K>());\n'}
+[1.330800] (calculator_2) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.330830] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.330862] (calculator_2) StderrLine: {'line': b'  102 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<CalculatorSubscriber>()\x1b[m\x1b[K);\n'}
+[1.330890] (calculator_2) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.331916] (calculator_2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[1.331994] (calculator_2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K:\n'}
+[1.332028] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.332067] (calculator_2) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.332097] (calculator_2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.332358] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.332424] (calculator_2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.332459] (calculator_2) StderrLine: {'line': b'  102 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<CalculatorSubscriber>()\x1b[m\x1b[K);\n'}
+[1.332489] (calculator_2) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.402589] (-) TimerEvent: {}
+[1.502792] (-) TimerEvent: {}
+[1.603030] (-) TimerEvent: {}
+[1.644272] (calculator_2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/calculator_subscriber.dir/build.make:76: CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o] Error 1\n'}
+[1.644490] (calculator_2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_subscriber.dir/all] Error 2\n'}
+[1.644546] (calculator_2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.645584] (calculator_2) CommandEnded: {'returncode': 2}
+[1.658532] (calculator_2) JobEnded: {'identifier': 'calculator_2', 'rc': 2}
+[1.668896] (-) EventReactorShutdown: {}

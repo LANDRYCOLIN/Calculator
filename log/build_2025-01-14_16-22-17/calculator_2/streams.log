@@ -1,0 +1,251 @@
+[0.006s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[0.031s] [ 50%] Built target calculator_publisher
+[0.034s] [ 75%] [32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o[0m
+[1.096s] In file included from [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:1[m[K:
+[1.096s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.hpp:11:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kco[m[K’ does not name a type
+[1.096s]    11 | [01;31m[Kco[m[K
+[1.096s]       | [01;31m[K^~[m[K
+[1.098s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ does not name a type
+[1.098s]     3 | [01;31m[KCalculatorSubscriber[m[K::CalculatorSubscriber() : Node("calculator_subscriber")
+[1.098s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.098s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:17:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.098s]    17 | void [01;31m[KCalculatorSubscriber[m[K::num1_callback(const std_msgs::msg::Float64::SharedPtr msg)
+[1.098s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.104s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K num1_callback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.104s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knum1_[m[K’ was not declared in this scope
+[1.104s]    19 |   [01;31m[Knum1_[m[K = msg->data;
+[1.104s]       |   [01;31m[K^~~~~[m[K
+[1.104s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.104s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:22:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.104s]    22 | void [01;31m[KCalculatorSubscriber[m[K::num2_callback(const std_msgs::msg::Float64::SharedPtr msg)
+[1.104s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.106s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K num2_callback[m[K(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.106s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knum2_[m[K’ was not declared in this scope
+[1.106s]    24 |   [01;31m[Knum2_[m[K = msg->data;
+[1.106s]       |   [01;31m[K^~~~~[m[K
+[1.106s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.106s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:27:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.106s]    27 | void [01;31m[KCalculatorSubscriber[m[K::operation_callback(const std_msgs::msg::String::SharedPtr msg)
+[1.107s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.109s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K operation_callback[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.109s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[Koperation_[m[K’ was not declared in this scope; did you mean ‘[01m[Koperator![m[K’?
+[1.109s]    29 |   [01;31m[Koperation_[m[K = msg->data;
+[1.109s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.110s]       |   [32m[Koperator![m[K
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:32:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.110s]    32 | void [01;31m[KCalculatorSubscriber[m[K::command_callback(const std_msgs::msg::Int32::SharedPtr msg)
+[1.110s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.110s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.110s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.110s]                  from [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.hpp:4[m[K:
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K command_callback[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.110s]    35 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到命令: %d", command); // 添加日志
+[1.110s]       |               [01;31m[K^~~~[m[K
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.110s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.110s]    35 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "收到命令: %d", command); // 添加日志
+[1.110s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.111s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.111s]    35 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "收到命令: %d", command); // 添加日志
+[1.111s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.111s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.111s]    35 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "收到命令: %d", command); // 添加日志
+[1.111s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.111s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[1.111s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.111s]    35 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到命令: %d", command); // 添加日志
+[1.111s]       |               [01;31m[K^~~~[m[K
+[1.111s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:35:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.111s]    35 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "收到命令: %d", command); // 添加日志
+[1.111s]       |               [01;31m[K^~~~[m[K
+[1.113s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knum1_[m[K’ was not declared in this scope
+[1.113s]    37 |   if (command == 1 && [01;31m[Knum1_[m[K && num2_ && !operation_.empty())
+[1.113s]       |                       [01;31m[K^~~~~[m[K
+[1.115s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knum2_[m[K’ was not declared in this scope
+[1.115s]    37 |   if (command == 1 && num1_ && [01;31m[Knum2_[m[K && !operation_.empty())
+[1.115s]       |                                [01;31m[K^~~~~[m[K
+[1.117s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Koperation_[m[K’ was not declared in this scope; did you mean ‘[01m[Koperator![m[K’?
+[1.117s]    37 |   if (command == 1 && num1_ && num2_ && ![01;31m[Koperation_[m[K.empty())
+[1.117s]       |                                          [01;31m[K^~~~~~~~~~[m[K
+[1.117s]       |                                          [32m[Koperator![m[K
+[1.121s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:39:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kperform_calculation[m[K’ was not declared in this scope
+[1.121s]    39 |     double result = [01;31m[Kperform_calculation[m[K(*num1_, *num2_, operation_);
+[1.121s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_history[m[K’ was not declared in this scope
+[1.124s]    40 |     [01;31m[Ksave_history[m[K(result);
+[1.124s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.124s]    41 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |                 [01;31m[K^~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]    41 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]    41 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.124s]    41 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.124s]    41 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |                 [01;31m[K^~~~[m[K
+[1.124s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:41:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.124s]    41 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "运算结果: %.2f", result);
+[1.124s]       |                 [01;31m[K^~~~[m[K
+[1.127s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_history[m[K’ was not declared in this scope
+[1.127s]    45 |     [01;31m[Kdisplay_history[m[K();
+[1.127s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_history[m[K’ was not declared in this scope
+[1.130s]    49 |     [01;31m[Kclear_history[m[K();
+[1.130s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.130s]    53 |     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "无效指令");
+[1.130s]       |                 [01;31m[K^~~~[m[K
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.130s]    53 |     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "无效指令");
+[1.130s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.130s]    53 |     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "无效指令");
+[1.130s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.130s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.131s]    53 |     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "无效指令");
+[1.131s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.131s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.131s]    53 |     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "无效指令");
+[1.131s]       |                 [01;31m[K^~~~[m[K
+[1.131s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:53:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.131s]    53 |     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "无效指令");
+[1.131s]       |                 [01;31m[K^~~~[m[K
+[1.131s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.131s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:57:8:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.131s]    57 | double [01;31m[KCalculatorSubscriber[m[K::perform_calculation(double num1, double num2, const std::string &operation)
+[1.131s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.131s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:71:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.131s]    71 | void [01;31m[KCalculatorSubscriber[m[K::save_history(double result)
+[1.131s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.133s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K save_history[m[K(double)[m[K’:
+[1.133s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:73:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khistory_[m[K’ was not declared in this scope
+[1.133s]    73 |   if ([01;31m[Khistory_[m[K.size() >= 5)
+[1.133s]       |       [01;31m[K^~~~~~~~[m[K
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:77:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khistory_[m[K’ was not declared in this scope
+[1.136s]    77 |   [01;31m[Khistory_[m[K.push_back(result);
+[1.136s]       |   [01;31m[K^~~~~~~~[m[K
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:80:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.136s]    80 | void [01;31m[KCalculatorSubscriber[m[K::display_history()
+[1.136s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K display_history[m[K()[m[K’:
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.136s]    82 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录:");
+[1.136s]       |               [01;31m[K^~~~[m[K
+[1.136s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.137s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.137s]    82 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录:");
+[1.137s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.137s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.137s]    82 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录:");
+[1.137s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.137s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.137s]    82 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录:");
+[1.137s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.137s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.137s]    82 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录:");
+[1.137s]       |               [01;31m[K^~~~[m[K
+[1.137s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:82:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.137s]    82 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录:");
+[1.137s]       |               [01;31m[K^~~~[m[K
+[1.139s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khistory_[m[K’ was not declared in this scope
+[1.139s]    83 |   if ([01;31m[Khistory_[m[K.empty())
+[1.139s]       |       [01;31m[K^~~~~~~~[m[K
+[1.139s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.139s]    85 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "无历史记录");
+[1.139s]       |                 [01;31m[K^~~~[m[K
+[1.139s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.139s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.139s]    85 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "无历史记录");
+[1.139s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.139s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.140s]    85 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "无历史记录");
+[1.140s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.140s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.140s]    85 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "无历史记录");
+[1.140s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.140s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.140s]    85 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "无历史记录");
+[1.140s]       |                 [01;31m[K^~~~[m[K
+[1.140s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:85:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.140s]    85 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "无历史记录");
+[1.140s]       |                 [01;31m[K^~~~[m[K
+[1.141s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:87:26:[m[K [01;31m[Kerror: [m[K‘[01m[Khistory_[m[K’ was not declared in this scope
+[1.141s]    87 |   for (const auto &res : [01;31m[Khistory_[m[K)
+[1.141s]       |                          [01;31m[K^~~~~~~~[m[K
+[1.141s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.141s]    89 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%.2f", res);
+[1.141s]       |                 [01;31m[K^~~~[m[K
+[1.141s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.141s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.141s]    89 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%.2f", res);
+[1.142s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.142s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.142s]    89 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%.2f", res);
+[1.142s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.142s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.142s]    89 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%.2f", res);
+[1.142s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.142s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.142s]    89 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%.2f", res);
+[1.142s]       |                 [01;31m[K^~~~[m[K
+[1.142s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:89:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.142s]    89 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%.2f", res);
+[1.143s]       |                 [01;31m[K^~~~[m[K
+[1.143s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K At global scope:
+[1.143s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:93:6:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ has not been declared
+[1.143s]    93 | void [01;31m[KCalculatorSubscriber[m[K::clear_history()
+[1.143s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.143s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K clear_history[m[K()[m[K’:
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khistory_[m[K’ was not declared in this scope
+[1.144s]    95 |   [01;31m[Khistory_[m[K.clear();
+[1.144s]       |   [01;31m[K^~~~~~~~[m[K
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.144s]    96 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录已清除");
+[1.144s]       |               [01;31m[K^~~~[m[K
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.144s]    96 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录已清除");
+[1.144s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.144s]    96 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录已清除");
+[1.144s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.144s]    96 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "历史记录已清除");
+[1.144s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.144s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.145s]    96 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录已清除");
+[1.145s]       |               [01;31m[K^~~~[m[K
+[1.145s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:96:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.145s]    96 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "历史记录已清除");
+[1.145s]       |               [01;31m[K^~~~[m[K
+[1.147s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.147s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:33:[m[K [01;31m[Kerror: [m[K‘[01m[KCalculatorSubscriber[m[K’ was not declared in this scope
+[1.147s]   102 |   rclcpp::spin(std::make_shared<[01;31m[KCalculatorSubscriber[m[K>());
+[1.147s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.147s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.147s]   102 |   rclcpp::spin([01;31m[Kstd::make_shared<CalculatorSubscriber>()[m[K);
+[1.148s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.148s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.148s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[1.148s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[1.148s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.148s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.148s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.148s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_subscriber.cpp:102:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.148s]   102 |   rclcpp::spin([01;31m[Kstd::make_shared<CalculatorSubscriber>()[m[K);
+[1.148s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.472s] gmake[2]: *** [CMakeFiles/calculator_subscriber.dir/build.make:76: CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o] Error 1
+[1.472s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_subscriber.dir/all] Error 2
+[1.472s] gmake: *** [Makefile:146: all] Error 2
+[1.473s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24

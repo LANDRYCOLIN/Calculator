@@ -1,0 +1,2 @@
+Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
