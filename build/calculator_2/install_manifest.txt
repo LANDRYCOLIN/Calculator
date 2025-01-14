@@ -1,5 +1,6 @@
 /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher
 /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber
+/home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/launch/calculator_launch.py
 /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/package_run_dependencies/calculator_2
 /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/parent_prefix_path/calculator_2
 /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.sh

@@ -23,6 +23,10 @@ install(TARGETS
   calculator_subscriber
   DESTINATION lib/${PROJECT_NAME})
 
+# 添加
+install(DIRECTORY launch
+    DESTINATION share/${PROJECT_NAME})
+
 # 如果需要测试
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

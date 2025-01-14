@@ -1,0 +1,50 @@
+[0.008s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[0.028s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.354s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.433s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.935s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.949s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.040s] -- Configured cppcheck include dirs: 
+[1.040s] -- Configured cppcheck exclude dirs and/or files: 
+[1.041s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.041s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.045s] -- Added test 'lint_cmake' to check CMake code style
+[1.046s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.057s] -- Added test 'uncrustify' to check C / C++ code style
+[1.057s] -- Configured uncrustify additional arguments: 
+[1.059s] -- Added test 'xmllint' to check XML markup files
+[1.060s] -- Configuring done (1.0s)
+[1.073s] -- Generating done (0.0s)
+[1.076s] -- Build files have been written to: /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2
+[1.099s] [100%] Built target calculator_publisher
+[1.099s] [100%] Built target calculator_subscriber
+[1.104s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[1.108s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2
+[1.111s] -- Install configuration: ""
+[1.112s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_publisher
+[1.112s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/lib/calculator_2/calculator_subscriber
+[1.113s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/launch
+[1.113s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/launch/simple.launch.py
+[1.113s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/package_run_dependencies/calculator_2
+[1.113s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/parent_prefix_path/calculator_2
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.sh
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/ament_prefix_path.dsv
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.sh
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/environment/path.dsv
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.bash
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.sh
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.zsh
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/local_setup.dsv
+[1.114s] -- Installing: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.dsv
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/ament_index/resource_index/packages/calculator_2
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config.cmake
+[1.114s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/cmake/calculator_2Config-version.cmake
+[1.115s] -- Up-to-date: /home/rmcolin/ros2_ws/src/calculator_2/install/calculator_2/share/calculator_2/package.xml
+[1.115s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2
