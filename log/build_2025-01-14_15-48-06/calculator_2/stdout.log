@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable calculator_subscriber[0m
+[ 75%] Built target calculator_subscriber

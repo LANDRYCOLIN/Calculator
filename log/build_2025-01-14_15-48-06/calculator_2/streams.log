@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/calculator_subscriber.dir/src/calculator_subscriber.cpp.o[0m
+[1.179s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:[m[K In member function ‘[01m[Kvoid CalculatorPublisher::[01;32m[Krun[m[K()[m[K’:
+[1.179s] [01m[K/home/rmcolin/ros2_ws/src/calculator_2/src/calculator_publisher.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_once[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_some[m[K’?
+[1.179s]    47 |     rclcpp::[01;31m[Kspin_once[m[K(shared_from_this(), std::chrono::milliseconds(100));  // 继续处理ROS的消息
+[1.179s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.179s]       |             [32m[Kspin_some[m[K
+[1.885s] gmake[2]: *** [CMakeFiles/calculator_publisher.dir/build.make:76: CMakeFiles/calculator_publisher.dir/src/calculator_publisher.cpp.o] Error 1
+[1.885s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/calculator_publisher.dir/all] Error 2
+[1.885s] gmake[1]: *** Waiting for unfinished jobs....
+[6.250s] [ 75%] [32m[1mLinking CXX executable calculator_subscriber[0m
+[6.563s] [ 75%] Built target calculator_subscriber
+[6.563s] gmake: *** [Makefile:146: all] Error 2
+[6.565s] Invoked command in '/home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rmcolin/ros2_ws/src/calculator_2/build/calculator_2 -- -j24 -l24

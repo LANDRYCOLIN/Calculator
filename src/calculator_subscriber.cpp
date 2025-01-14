@@ -32,6 +32,8 @@ void CalculatorSubscriber::operation_callback(const std_msgs::msg::String::Share
 void CalculatorSubscriber::command_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
   int command = msg->data;
+  RCLCPP_INFO(this->get_logger(), "收到命令: %d", command); // 添加日志
+  
   if (command == 1 && num1_ && num2_ && !operation_.empty())
   {
     double result = perform_calculation(*num1_, *num2_, operation_);
